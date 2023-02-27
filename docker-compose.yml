@@ -5,6 +5,6 @@ services:
     image: robsonsamp/angular-fed-argo-dashboard-app
     ports: 
       - 8000:80
-    container_name: centraldev-fed-dashboard-app
+    container_name: centraldev-fed-argo-dashboard-app
     volumes:
        - ./src:/usr/src/app/src
